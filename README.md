@@ -14,15 +14,10 @@ Godown is a markdown parser written in Go. I will use it to convert my blog post
 ### Project plan
 
 - [ ] Implement a lexer to tokenize the input Markdown text and identify different Markdown elements
-
 - [ ] Create an abstract syntax tree (AST) to define node types for different markdown elements and parse tokens into an AST structure
-
 - [ ] Implement an HTML renderer to traverse the AST and genereate corresponding HTML for each node type
-
 - [ ] Develop the main program to read input markdown files, coordinate lexing, parsing and rendering and output HTML files
-
 - [ ] Implement error handling and edge cases
-
 - [ ] Write tests
 
 ### Supported features
